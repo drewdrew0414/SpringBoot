@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: SpringBoot
+vaadin:
+  launch-browser: true
