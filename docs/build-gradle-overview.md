@@ -1,6 +1,6 @@
-# build.gradle.kts 전체 구조
+﻿# build.gradle.kts 전체 구조
 
-이 문서는 `build.gradle.kts`에서 의존성 외부에 있는 빌드 설정을 설명한다.
+이 문서는 `build.gradle.kts`에서 의존성 바깥에 있는 빌드 설정을 설명하는 문서다.
 플러그인, Java 버전, Repository, BOM, Task 설정도 프로젝트 동작에 큰 영향을 준다.
 
 ## 1. plugins
@@ -13,7 +13,7 @@ java
 
 자바 프로젝트를 빌드하기 위한 기본 Gradle 플러그인이다.
 
-하는 일:
+하는 일은 아래와 같음.
 
 ```
 src/main/java 컴파일
@@ -86,7 +86,7 @@ tasks.generateJava {
 }
 ```
 
-의미:
+의미는 아래와 같음.
 
 ```
 src/main/resources/graphql-client 경로의 GraphQL schema 읽기
@@ -118,7 +118,7 @@ GraalVM Native Image 빌드를 위한 플러그인이다.
 컨테이너 환경에서 유리할 수 있음
 ```
 
-주의:
+주의할 점:
 
 ```
 빌드 시간이 길 수 있음
@@ -170,7 +170,7 @@ java {
 
 이 프로젝트는 Java 21 기준으로 컴파일되도록 설정되어 있다.
 
-의미:
+의미는 아래와 같음.
 
 ```
 자바 21 문법 사용 가능
@@ -277,7 +277,7 @@ DGS Codegen task 설정이다.
 
 이 설정은 GraphQL schema를 기준으로 코드를 생성한다.
 
-설정 의미:
+설정 의미는 아래와 같음.
 
 ```
 schemaPaths

@@ -1,8 +1,8 @@
-# 개발/런타임/컴파일 보조 의존성
+﻿# 개발/런타임/컴파일 보조 의존성
 
-이 문서는 `implementation`이 아닌 main 관련 의존성을 설명한다.
+이 문서는 `implementation` 말고 main 쪽에서 같이 쓰이는 보조 의존성을 설명하는 문서다.
 
-포함 범위:
+포함되는 범위는 아래와 같음.
 
 ```
 developmentOnly
@@ -22,7 +22,7 @@ Vaadin 개발 모드에 필요한 의존성이다.
 `developmentOnly`이므로 개발 환경에서만 필요하다.
 운영 실행 파일에는 보통 포함하지 않는다.
 
-하는 일:
+하는 일은 아래와 같음.
 
 ```
 Vaadin 개발 모드 지원
@@ -79,7 +79,7 @@ public class User {
 실행 시점에는 Lombok 라이브러리가 직접 필요하지 않음
 ```
 
-주의:
+주의할 점:
 
 Lombok은 코드를 짧게 만들어주지만, 처음 배우는 단계에서는 getter, 생성자, setter를 직접 작성해보는 것이 자바 기본 이해에 도움이 된다.
 
@@ -131,7 +131,7 @@ services:
     image: 'redis:latest'
 ```
 
-의미:
+의미는 아래와 같음.
 
 ```
 애플리케이션 시작
@@ -141,7 +141,7 @@ Docker Compose 서비스 감지
 MySQL, Redis 같은 개발 인프라와 연동
 ```
 
-주의:
+주의할 점:
 
 Docker Desktop 또는 Docker 환경이 필요하다.
 Docker가 없거나 Compose 서비스가 제대로 뜨지 않으면 관련 자동 연동이 실패할 수 있다.
@@ -202,7 +202,7 @@ app:
 
 configuration processor가 있으면 IDE에서 자동완성, 문서화, 타입 힌트 같은 도움을 받을 수 있다.
 
-하는 일:
+하는 일은 아래와 같음.
 
 ```
 @ConfigurationProperties 클래스 분석

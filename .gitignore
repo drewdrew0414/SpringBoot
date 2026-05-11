@@ -36,3 +36,5 @@ out/
 
 ### VS Code ###
 .vscode/
+
+/docs/generate-dependency-docs.ps1

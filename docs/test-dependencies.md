@@ -1,8 +1,8 @@
-# 테스트 의존성
+﻿# 테스트 의존성
 
-이 문서는 `build.gradle.kts`의 테스트 관련 의존성을 설명한다.
+이 문서는 `build.gradle.kts`에 들어 있는 테스트 관련 의존성을 설명하는 문서다.
 
-포함 범위:
+포함되는 범위는 아래와 같음.
 
 ```
 testImplementation
@@ -21,7 +21,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-data-jdbc-test"
 
 Spring Data JDBC 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 Spring Data JDBC Repository 테스트
@@ -41,7 +41,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-data-ldap-test"
 
 Spring Data LDAP 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 LDAP Repository 테스트
@@ -61,7 +61,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-data-rest-test"
 
 Spring Data REST 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 Repository 기반 REST endpoint 테스트
@@ -81,7 +81,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-graphql-test")
 
 Spring GraphQL 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 GraphQL Query 테스트
@@ -101,7 +101,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-hateoas-test")
 
 Spring HATEOAS 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 _links 포함 응답 검증
@@ -121,7 +121,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-jdbc-test")
 
 JDBC 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 JdbcTemplate 테스트
@@ -141,7 +141,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-jersey-test")
 
 Jersey 기반 API 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 JAX-RS resource 테스트
@@ -181,7 +181,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-restclient-test
 
 `RestClient` 기반 외부 HTTP 호출 코드를 테스트하기 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 외부 API 호출 코드 테스트
@@ -201,7 +201,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-security-oauth2
 
 OAuth2 Authorization Server 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 토큰 발급 흐름 테스트
@@ -221,7 +221,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-security-oauth2
 
 OAuth2 Client 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 소셜 로그인 흐름 테스트
@@ -241,7 +241,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-security-oauth2
 
 OAuth2 Resource Server 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 JWT 인증 API 테스트
@@ -261,7 +261,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-security-saml2-
 
 SAML2 인증 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 SAML2 로그인 테스트
@@ -312,7 +312,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-session-data-re
 
 Redis 기반 Spring Session 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 Redis 세션 저장 테스트
@@ -332,7 +332,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-session-jdbc-te
 
 JDBC 기반 Spring Session 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 DB 세션 저장 테스트
@@ -352,7 +352,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-webclient-test"
 
 `WebClient` 기반 외부 HTTP 호출 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 비동기 외부 API 호출 테스트
@@ -372,7 +372,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-webflux-test")
 
 Spring WebFlux 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 WebFlux Controller 테스트
@@ -394,7 +394,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
 
 Spring MVC Controller 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 @RestController 테스트
@@ -424,7 +424,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-webservices-tes
 
 Spring Web Services 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 SOAP endpoint 테스트
@@ -444,7 +444,7 @@ testImplementation("org.springframework.boot:spring-boot-starter-websocket-test"
 
 WebSocket 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 WebSocket 연결 테스트
@@ -464,7 +464,7 @@ testImplementation("com.netflix.graphql.dgs:graphql-dgs-spring-graphql-starter-t
 
 Netflix DGS GraphQL 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 DGS DataFetcher 테스트
@@ -484,7 +484,7 @@ testImplementation("org.springframework.modulith:spring-modulith-starter-test")
 
 Spring Modulith 테스트를 위한 Starter다.
 
-사용 목적:
+사용 목적은 아래와 같음.
 
 ```
 모듈 구조 검증
